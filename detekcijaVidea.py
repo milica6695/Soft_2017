@@ -1,5 +1,6 @@
 import numpy as np
 import cv2
+from datetime import datetime
 import matplotlib.pyplot as plt
 from skimage.measure import regionprops
 from skimage.measure import label
@@ -27,6 +28,17 @@ def ZaDetekciju(Okvir):
 
     return img, contours_Tablica, retSlike
 
+def diffImg(t0, t1, t2):  # Function to calculate difference between images.
+    # t0 = t0[150:410,190:420]
+    # t1 = t1[150:410, 190:420]
+    # t2 = t2[150:410, 190:420]
+
+    d1 = cv2.absdiff(t2, t1)
+    d2 = cv2.absdiff(t1, t0)
+    return cv2.bitwise_and(d1, d2)
+
+
+
 import os
 dir = os.path.dirname(__file__)
 filename = os.path.join(dir, 'Videos')
@@ -36,57 +48,41 @@ file_count = len(files)
 
 
 index = 0
+threshold = 8500
+timeCheck = datetime.now().strftime('%Ss')
+
 while index < len(files):       #Prolazak kroz sve videe iz foldera Videos
     winName = files[index]      # Davanje naziva
     cv2.namedWindow(winName)
 
     captureVideo = cv2.VideoCapture(path + '/' + files[index])  #'Videos/video-%d.avi' % index)
+
     trenutniFrame = 0
     brojevi_list = []
+
+
     while (captureVideo.isOpened()):
         ret, frame = captureVideo.read()
 
+        t_minus = cv2.cvtColor(captureVideo.read()[1], cv2.COLOR_RGB2GRAY)
+        t = cv2.cvtColor(captureVideo.read()[1], cv2.COLOR_RGB2GRAY)
+        t_plus = cv2.cvtColor(captureVideo.read()[1], cv2.COLOR_RGB2GRAY)
+
+        if cv2.countNonZero(diffImg(t_minus, t, t_plus)) > threshold :
+            dimg = captureVideo.read()[1]
+            # cv2.imwrite(datetime.now().strftime('%Y%m%d_%Hh%Mm%Ss%f') + '.jpg', dimg)
+            cv2.imwrite('frames/' + files[index] +'%d.png' % trenutniFrame, t)
+            trenutniFrame+=1;
+
         if (ret == False):
             break
-        ####
-        # siva = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-        # cv2.imshow('frame', siva)
-        # if (trenutniFrame == 0):
-        #     edges = cv2.Canny(siva, 50, 150, apertureSize=3)
-        #     lines = cv2.HoughLinesP(edges, 1, np.pi / 180, 100, minLineLength=100, maxLineGap=10)
-        #     x1 = lines[0][0][0]
-        #     y1 = lines[0][0][1]
-        #     x2 = lines[0][0][2]
-        #     y2 = lines[0][0][3]
-        # img = cv2.inRange(siva, 163, 255)
-        # clos = cv2.morphologyEx(img, cv2.MORPH_CLOSE, np.ones((4, 4), np.uint8))
-        # labela = label(clos)
-        # regioni = regionprops(labela)
-        # for reg in regioni:
-        #     if ((reg.bbox[2] - reg.bbox[0]) <= 10 or prolazIzaPrave(reg.bbox) == False):
-        #         continue
-        #     img_br = nasaoBroj(reg.bbox, siva)
-        #    # prepoznat_br = int(ktrain.predict(img_br.reshape(1, 784)))
-        #     kreiranjeListeBr(reg.bbox, brojevi_list, 4)
-        # trenutniFrame += 1
-
-        ####
 
         #img = cv2.imread('dave.jpg')
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         edges = cv2.Canny(gray, 60, 160, apertureSize=5)
 
         lines = cv2.HoughLines(edges, 1, np.pi / 180, 100)
-        for rho, theta in lines[0]:
-            a = np.cos(theta)
-            b = np.sin(theta)
-            x0 = a * rho
-            y0 = b * rho
-            # x1 = int(x0 + 10 * (-b))
-            # y1 = int(y0 + 10 * (a))
-            # x2 = int(x0 - 300 * (-b))
-            # y2 = int(y0 - 300 * (a))
-       # saKonturama, konture, slika = ZaDetekciju(frame)
+
         upper_red = np.array([255, 120, 120])
         lower_red = np.array([90, 0, 0])
 
@@ -95,14 +91,14 @@ while index < len(files):       #Prolazak kroz sve videe iz foldera Videos
 
         DataSlika, konturaLinije, slikaSaonturama = ZaDetekciju(output)
         xx, yy, w, h = cv2.boundingRect(konturaLinije[0])
-        cv2.line(frame, (xx, yy+h ), (xx+w, yy), (255, 0, 0), 4)
+       # cv2.line(frame, (xx, yy+h ), (xx+w, yy), (255, 255, 0), 4)
 
         cv2.imwrite('images\slika%d.jpg' % index, frame)
 
-      #  ZaDetekciju(frame)
+      #  ZaDetekciju(frame)q
         cv2.imshow(winName, frame)
         # Display the resulting frame
-        if cv2.waitKey(10) & 0xFF == ord('q'):
+        if cv2.waitKey(90) & 0xFF == ord('q'):
             #captureVideo.release()
             break
     suma = 0
