@@ -112,14 +112,13 @@ def prepoznajBroj(slika, kontura, klasifikator):
     centary = int(y + h / 2)
     siva = cv2.cvtColor(slika, cv2.COLOR_BGR2GRAY)
     broj = siva[centary-12:centary+12, centarx-12:centarx+12]
-    #cv2.imshow("broj", broj)
+    cv2.imshow("broj", broj)
     (tr, broj) = cv2.threshold(broj, 128, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)
     broj = ispraviSlova(broj)
     broj = iseci_broj(broj)
-    #cv2.imshow("broj finalno", broj)
+    cv2.imshow("broj finalno", broj)
     br = klasifikator.predict_classes(broj.reshape(1, 28, 28, 1))
     return int(br)
-
 
 def diffImg(t0, t1, t2):  # Function to calculate difference between images.
     # t0 = t0[150:410,190:420]
@@ -153,7 +152,10 @@ beleKonture = kontureBrojeva(slika)
 
 img_GRAY = cv2.cvtColor(beleKonture, cv2.COLOR_RGB2GRAY)  # konvert u grayscale
 retSlike, image_bin = cv2.threshold(img_GRAY, 100, 255, cv2.THRESH_OTSU)
-img, contours, hierarchy = cv2.findContours(image_bin, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
+blurovana = cv2.GaussianBlur(image_bin, (5, 5), 0)  # ili Gray ovde
+
+img, contours, hierarchy = cv2.findContours(blurovana.copy(), cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
+
 
 contours_Brojeva = []  # ovde ce biti samo konture koje pripadaju bar-kodu
 index = 0
@@ -163,10 +165,11 @@ for contour in contours:  # za svaku konturu
     center, size, angle = cv2.minAreaRect(contour)  # pronadji pravougaonik minimalne povrsine koji ce obuhvatiti celu konturu
     width, height = size
     xx, yy, w, h = cv2.boundingRect(contour)
+    povrsina = cv2.contourArea(contour)
     #print('xx='+ str(xx) + '  yy=0' + str(yy))
     #if xx >= x1 and xx <= x2 and yy <= y1 and yy >= y2:  # uslov da kontura pripada (trebalo bi preko Krugova)                                yyy:yyy + hhh, xxx:xxx + www
     #if (x1+100 >= xx >= x1 or x2+100 >= xx >= x2) and (y1+100 >= yy >= y1 or y2+100 >= yy >= y2) :  # uslov da kontura pripada (trebalo bi preko Krugova)                                yyy:yyy + hhh, xxx:xxx + www
-    if  xx < 220 and yy < 220 and width >= 7 and height > 8:  # uslov da kontura pripada (trebalo bi preko Krugova)                                yyy:yyy + hhh, xxx:xxx + www
+    if povrsina > 12 and xx < 220 and yy < 220 and width >= 7 and height > 8:  # uslov da kontura pripada (trebalo bi preko Krugova)                                yyy:yyy + hhh, xxx:xxx + www
         cv2.imwrite('slikeBrojeva/brojevi%d.png' % index, img_GRAY[yy:yy + h, xx:xx + w])
         print('Visina =' + str(height) + ' Sirina je: ' + str(width) )
         index = index + 1
