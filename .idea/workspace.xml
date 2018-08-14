@@ -2,127 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b049ab65-f9d3-4c67-b67a-31b675031727" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/rotiranFrame/slika0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rotiranFrame/slika1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rotiranFrame/slika2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rotiranFrame/slika3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rotiranFrame/slika4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rotiranFrame/slika5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rotiranFrame/slika6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rotiranFrame/slika7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rotiranFrame/slika8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rotiranFrame/slika9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rotiranFrame/video-0.avi0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rotiranFrame/video-0.avi1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rotiranFrame/video-0.avi2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rotiranFrame/video-0.avi3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rotiranFrame/video-0.avi4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rotiranFrame/video-0.avi5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rotiranFrame/video-9.avi0.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-33.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-34.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-35.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-38.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-41.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-42.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-43.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-46.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-47.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-49.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-52.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-53.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-54.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-56.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-58.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-59.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-61.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-62.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-63.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-65.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-66.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-67.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-68.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-69.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-71.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-73.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-74.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-75.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-77.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-78.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-79.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-80.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-81.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-82.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-83.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-84.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-85.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-86.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-87.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-88.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-89.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-90.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-91.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-92.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-93.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-94.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-95.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-97.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-98.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/img-99.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/slika0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/slika0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detekcijaVidea.py" beforeDir="false" afterPath="$PROJECT_DIR$/detekcijaVidea.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/slika0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/slika1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/slika2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/slika3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/slika4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/slika5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/slika6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/slika7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/slika8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/slika9.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/slikeBrojeva/brojevi0.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/slikeBrojeva/brojevi1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slikeBrojeva/brojevi10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slikeBrojeva/brojevi11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slikeBrojeva/brojevi12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slikeBrojeva/brojevi13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slikeBrojeva/brojevi14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slikeBrojeva/brojevi15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slikeBrojeva/brojevi16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slikeBrojeva/brojevi17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slikeBrojeva/brojevi18.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/slikeBrojeva/brojevi2.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/slikeBrojeva/brojevi3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slikeBrojeva/brojevi4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slikeBrojeva/brojevi5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slikeBrojeva/brojevi6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slikeBrojeva/brojevi7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slikeBrojeva/brojevi8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slikeBrojeva/brojevi9.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/solution.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -180,31 +92,36 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="jpg" value="78" />
-          <entry key="png" value="214" />
-          <entry key="py" value="22" />
+          <entry key="jpg" value="158" />
+          <entry key="png" value="694" />
+          <entry key="py" value="56" />
           <entry key="pyi" value="1" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="292" />
+          <entry key="Image" value="852" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="22" />
+          <entry key="Python" value="56" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1881" />
-          <entry key="txt" value="49" />
+          <entry key="py" value="3335" />
+          <entry key="txt" value="136" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="49" />
-          <entry key="Python" value="1881" />
+          <entry key="PLAIN_TEXT" value="136" />
+          <entry key="Python" value="3335" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.create.new" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -212,67 +129,15 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/solution.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="160" column="17" lean-forward="true" selection-start-line="160" selection-start-column="17" selection-end-line="160" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/slika0.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/slika1.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/detekcijaVidea.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" selection-end-column="16" />
+            <state relative-caret-position="206">
+              <caret line="119" column="12" selection-start-line="119" selection-start-column="12" selection-end-line="119" selection-end-column="12" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/slika3.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/slika4.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/slika2.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/slika7.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/slika6.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/slika5.jpg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -297,29 +162,43 @@
       <find>minAreaRect</find>
       <find>mnist</find>
       <find>model</find>
-      <find>ZaDetekciju</find>
       <find>save</find>
       <find>epo</find>
       <find>fra</find>
       <find>epoc</find>
       <find>prepoznajBroj</find>
       <find>ispraviSlova</find>
+      <find>pozicijaTacke</find>
       <find>print</find>
+      <find>ZaDetekciju</find>
+      <find>trenutniFrame</find>
+      <find>prolazIzaPrave</find>
+      <find>nasaoBroj</find>
+      <find>brojevi_list</find>
+      <find>kreiranjeListeBr</find>
+      <find>angle</find>
+      <find>broj fin</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/proba.py" />
-        <option value="$USER_HOME$/Downloads/Sara Krasic/Sara Krasic/softComp-master/softComp-master/sara_test/project.py" />
         <option value="$PROJECT_DIR$/detektovatiLinijuSlika.py" />
         <option value="$PROJECT_DIR$/neuron.py" />
         <option value="$PROJECT_DIR$/only.py" />
-        <option value="$PROJECT_DIR$/detekcijaVidea.py" />
+        <option value="$USER_HOME$/Downloads/Sara Krasic/Sara Krasic/softComp-master/softComp-master/sara_test/project.py" />
         <option value="$PROJECT_DIR$/solution.py" />
+        <option value="$PROJECT_DIR$/StariSolution.py" />
+        <option value="$PROJECT_DIR$/detekcijaVidea.py" />
       </list>
     </option>
   </component>
@@ -346,7 +225,12 @@
             <path>
               <item name="softMilica" type="b2602c69:ProjectViewProjectNode" />
               <item name="softMilica" type="462c0819:PsiDirectoryNode" />
-              <item name="Videos" type="462c0819:PsiDirectoryNode" />
+              <item name="frames" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="softMilica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softMilica" type="462c0819:PsiDirectoryNode" />
+              <item name="slikeBrojeva" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -359,6 +243,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Smekac\Desktop\softMilica\rotiranFrame" />
       <recent name="C:\Users\Smekac\PycharmProjects\pr\Videos" />
       <recent name="C:\Users\Smekac\PycharmProjects\pr" />
     </key>
@@ -378,7 +263,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.solution">
+  <component name="RunManager" selected="Python.detekcijaVidea">
+    <configuration name="StariSolution" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pr" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/StariSolution.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="detekcijaVidea" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pr" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -392,48 +298,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detekcijaVidea.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="detektovatiLinijuSlika" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pr" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detektovatiLinijuSlika.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="neuron" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pr" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/neuron.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -484,6 +348,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="project" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pr" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads/Sara Krasic/Sara Krasic/softComp-master/softComp-master/sara_test" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/Sara Krasic/Sara Krasic/softComp-master/softComp-master/sara_test/project.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="solution" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pr" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -508,18 +393,18 @@
     <list>
       <item itemvalue="Python.proba" />
       <item itemvalue="Python.detekcijaVidea" />
-      <item itemvalue="Python.detektovatiLinijuSlika" />
-      <item itemvalue="Python.neuron" />
       <item itemvalue="Python.solution" />
       <item itemvalue="Python.only" />
+      <item itemvalue="Python.project" />
+      <item itemvalue="Python.StariSolution" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.solution" />
         <item itemvalue="Python.detekcijaVidea" />
+        <item itemvalue="Python.StariSolution" />
+        <item itemvalue="Python.solution" />
+        <item itemvalue="Python.project" />
         <item itemvalue="Python.only" />
-        <item itemvalue="Python.neuron" />
-        <item itemvalue="Python.detektovatiLinijuSlika" />
       </list>
     </recent_temporary>
   </component>
@@ -541,7 +426,21 @@
       <option name="project" value="LOCAL" />
       <updated>1534174621535</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="MALE IZMENE">
+      <created>1534185259888</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1534185259888</updated>
+    </task>
+    <task id="LOCAL-00003" summary="popravljeno identifikovanje brojeva ,uz malo blurovanje">
+      <created>1534194369408</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1534194369408</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -557,12 +456,12 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23660715" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23660715" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32459018" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3327869" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -576,18 +475,18 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23660715" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23660715" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30819672" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3327869" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.1442623" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -600,176 +499,172 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="prepoznavanje brojeva u odredjenim regionima .." />
-    <option name="LAST_COMMIT_MESSAGE" value="prepoznavanje brojeva u odredjenim regionima .." />
+    <MESSAGE value="MALE IZMENE" />
+    <MESSAGE value="popravljeno identifikovanje brojeva ,uz malo blurovanje" />
+    <option name="LAST_COMMIT_MESSAGE" value="popravljeno identifikovanje brojeva ,uz malo blurovanje" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frames/video-3.avi10.png">
+    <entry file="file://$PROJECT_DIR$/frames/video-1.avi0.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-3.avi11.png">
+    <entry file="file://$PROJECT_DIR$/frames/video-1.avi1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-3.avi12.png">
+    <entry file="file://$PROJECT_DIR$/frames/video-1.avi2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-3.avi13.png">
+    <entry file="file://$PROJECT_DIR$/frames/video-1.avi3.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-3.avi14.png">
+    <entry file="file://$PROJECT_DIR$/frames/video-1.avi4.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-3.avi18.png">
+    <entry file="file://$PROJECT_DIR$/frames/video-1.avi5.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-5.avi5.png">
+    <entry file="file://$PROJECT_DIR$/frames/video-1.avi6.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-5.avi17.png">
+    <entry file="file://$PROJECT_DIR$/frames/video-1.avi7.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-6.avi11.png">
+    <entry file="file://$PROJECT_DIR$/frames/video-1.avi8.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-7.avi5.png">
+    <entry file="file://$PROJECT_DIR$/frames/video-1.avi9.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-8.avi3.png">
+    <entry file="file://$PROJECT_DIR$/frames/video-1.avi10.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-8.avi12.png">
+    <entry file="file://$PROJECT_DIR$/frames/video-1.avi12.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-8.avi15.png">
+    <entry file="file://$PROJECT_DIR$/frames/video-1.avi11.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frames/video-1.avi13.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frames/video-1.avi14.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frames/video-1.avi15.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frames/video-1.avi16.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frames/video-1.avi17.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/frames/video-9.avi0.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brjevi2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brjevi3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brjevi4.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brjevi1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brjevi0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brojevi6.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brojevi7.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brojevi8.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brojevi9.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brojevi10.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brojevi11.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brojevi12.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brojevi13.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brojevi14.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brojevi16.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brojevi17.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brojevi18.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brojevi5.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brojevi15.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/detektovatiLinijuSlika.py">
+    <entry file="file://$PROJECT_DIR$/solution.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="93">
+          <caret line="181" selection-start-line="181" selection-end-line="181" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/img-98.png">
+    <entry file="file://$PROJECT_DIR$/frames/video-3.avi0.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brojevi1.png">
+    <entry file="file://$PROJECT_DIR$/frames/video-4.avi0.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brojevi2.png">
+    <entry file="file://$PROJECT_DIR$/frames/video-5.avi0.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brojevi3.png">
+    <entry file="file://$PROJECT_DIR$/frames/video-6.avi0.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brojevi4.png">
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi5.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/slika9.jpg">
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/slika7.jpg">
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/slika6.jpg">
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi3.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/slika5.jpg">
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi6.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brojevi0.png">
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi14.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/slika0.jpg">
+    <entry file="file://$PROJECT_DIR$/frames/video-2.avi0.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/slika1.jpg">
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi32.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/slika2.jpg">
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi30.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/slika3.jpg">
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi29.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/slika4.jpg">
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi28.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi27.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi25.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi24.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi23.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi22.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi21.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi31.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi11.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi13.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi0.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frames/video-1.avi00.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi00.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi105.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi188.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/detekcijaVidea.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="160" column="17" lean-forward="true" selection-start-line="160" selection-start-column="17" selection-end-line="160" selection-end-column="17" />
+        <state relative-caret-position="206">
+          <caret line="119" column="12" selection-start-line="119" selection-start-column="12" selection-end-line="119" selection-end-column="12" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>

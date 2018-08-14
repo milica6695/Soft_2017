@@ -5,14 +5,13 @@ from scipy import ndimage
 from keras.utils import to_categorical
 from keras.models import Sequential
 from keras.layers import Dense, Conv2D, MaxPooling2D, Dropout, Flatten
-from keras.datasets import mnist
 
+#from detekcijaVidea import trenutniFrame
 
 def ZaDetekciju(Okvir):
     img_GRAY_gs = cv2.cvtColor(Okvir, cv2.COLOR_RGB2GRAY)  # konvert u grayscale
     # image_barcode_bin = cv2.threshold(img_GRAY_gs, 100, 200, cv2.THRESH_BINARY)   #adaptiveThreshold(img_GRAY_gs, 255,cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 61,15)
     retSlike, image_bin = cv2.threshold(img_GRAY_gs, 100, 255, cv2.THRESH_OTSU)
-    print("pRAG JE: " + str(retSlike))
     img, contours, hierarchy = cv2.findContours(image_bin, cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
     img = Okvir.copy()
     cv2.drawContours(img, contours, -1, (0, 255, 255), 4)  # Ovde sve konture naznaci
@@ -21,15 +20,14 @@ def ZaDetekciju(Okvir):
 
     contours_Tablica = []  # ovde ce biti samo konture koje pripadaju bar-kodu
     for contour in contours:  # za svaku konturu
-        center, size, angle = cv2.minAreaRect(
-            contour)  # proe
         xx, yy, w, h = cv2.boundingRect(contour)
-        x, y = center
         if w > 3 and h > 5 and h < 400:  # uslov da kontura pripada (trebalo bi preko Krugova)
             contours_Tablica.append(contour)  # ova kontura pripada bar-kodu
+            center, size, angle = cv2.minAreaRect(contour)  # proe
             #print('Detektovano kontura(linija):  ' + str(len(contours_Tablica)))
             #print('Kordinate duzi su: ' + str(xx) + ',' + str(yy+h) + '  A druge tacke: ' + str(xx+w) +',' + str(yy)+ '  //Sirina je: ' + str(w) + ' __VISINA JE:  ' + str(h) )
-            return xx, yy + h, xx + w, yy;
+            return xx, yy + h, xx + w, yy , angle; # za KRIVUUU
+            #return xx,yy,xx+w,yy
     # img = Okvir.copy()
     # cv2.drawContours(img, contours_Tablica, -1, (0, 255, 0), 1)
     # plt.imshow(img)
@@ -39,10 +37,10 @@ def ZaDetekciju(Okvir):
 
 
 def kontureBrojeva(slika):
-    upper_red = np.array([255, 255, 255])
-    lower_red = np.array([140, 140, 140])  # Posto su brojevi bjeli
+    upper_white = np.array([255, 255, 255])
+    lower_white = np.array([140, 140, 140])  # Posto su brojevi bjeli
 
-    mask = cv2.inRange(slika, lower_red, upper_red)
+    mask = cv2.inRange(slika, lower_white, upper_white)
     output = cv2.bitwise_and(slika, slika, mask=mask)
     plt.imshow(output)
     plt.show()
@@ -129,64 +127,93 @@ def diffImg(t0, t1, t2):  # Function to calculate difference between images.
     d2 = cv2.absdiff(t1, t0)
     return cv2.bitwise_and(d1, d2)
 
+############
+# def kreiranjeListeBr(bbox, brojevi_list, br):
+#     prvi_ulaz = True;
+#     for trenutni_br in brojevi_list:
+#         if (trenutni_br[0] == br and bbox[0] +7 > trenutni_br[2]  and bbox[1] + 7 > trenutni_br[1]):
+#              brojevi_list.remove(trenutni_br)
+#              prvi_ulaz = False;
+#              brojevi_list.append((br, bbox[1], bbox[0]))
+#              #print( "brojevna lista: " + str(brojevi_list))
+#     if (prvi_ulaz == True):
+# #         print ('U frejmu ' + str(trenutniFrame) + '. pronasao br: ' + str(br) )
+#          brojevi_list.append((br, bbox[1], bbox[0]))
 
 klasifikator = napravi_model((28,28,1),10)
-klasifikator.load_weights(''
-                          'weights.h5')
+klasifikator.load_weights(''  'weights.h5') #Da ne obucavamo svaki put ucitamo snimljeno obucavanje !!!
 #####
 
-slika = cv2.imread("images/slika9.jpg")     # 8
+#slika = cv2.imread("images/slika9.jpg")     # 8
 
-upper_red = np.array([255, 100, 100])
-lower_red = np.array([90, 0, 0])
+import os
+dir = os.path.dirname(__file__)
+filename = os.path.join(dir, 'frames')
 
-mask = cv2.inRange(slika, lower_red, upper_red)
-output = cv2.bitwise_and(slika, slika, mask=mask)
-plt.imshow(output)
-plt.show()
-
-x1, y1, x2, y2 = ZaDetekciju(output)
-#print(str(x1) + ' , ' + str(y1) + '  i  ' + str(x2) + ' , ' + str(y2))
-
-beleKonture = kontureBrojeva(slika)
-
-img_GRAY = cv2.cvtColor(beleKonture, cv2.COLOR_RGB2GRAY)  # konvert u grayscale
-retSlike, image_bin = cv2.threshold(img_GRAY, 100, 255, cv2.THRESH_OTSU)
-blurovana = cv2.GaussianBlur(image_bin, (5, 5), 0)  # ili Gray ovde
-
-img, contours, hierarchy = cv2.findContours(blurovana.copy(), cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
-
-
-contours_Brojeva = []  # ovde ce biti samo konture koje pripadaju bar-kodu
-index = 0
+path, dirs, files = os.walk(filename).__next__()
+file_count = len(files)
+i =0
 suma = 0
-sumiranje = False
-for contour in contours:  # za svaku konturu
-    center, size, angle = cv2.minAreaRect(contour)  # pronadji pravougaonik minimalne povrsine koji ce obuhvatiti celu konturu
-    width, height = size
-    xx, yy, w, h = cv2.boundingRect(contour)
-    povrsina = cv2.contourArea(contour)
-    #print('xx='+ str(xx) + '  yy=0' + str(yy))
-    #if xx >= x1 and xx <= x2 and yy <= y1 and yy >= y2:  # uslov da kontura pripada (trebalo bi preko Krugova)                                yyy:yyy + hhh, xxx:xxx + www
-    #if (x1+100 >= xx >= x1 or x2+100 >= xx >= x2) and (y1+100 >= yy >= y1 or y2+100 >= yy >= y2) :  # uslov da kontura pripada (trebalo bi preko Krugova)                                yyy:yyy + hhh, xxx:xxx + www
-    if povrsina > 12 and xx < 220 and yy < 220 and width >= 7 and height > 8:  # uslov da kontura pripada (trebalo bi preko Krugova)                                yyy:yyy + hhh, xxx:xxx + www
-        cv2.imwrite('slikeBrojeva/brojevi%d.png' % index, img_GRAY[yy:yy + h, xx:xx + w])
-        print('Visina =' + str(height) + ' Sirina je: ' + str(width) )
-        index = index + 1
-        element = prepoznajBroj(beleKonture, contour, klasifikator)
-        print( str(element) + "  !!!!!!!!!")
-        sumiranje = True
-        contours_Brojeva.append(contour)  # ova kontura pripada bar-kodu
-        print('Detektovano kontura(linija):  ' + str(len(contours_Brojeva)))
-        if sumiranje:
-            suma = suma +  element
-            sumiranje = False
-    # cv2.minAreaRect(contour)
-print('Suma identifikovanih brojeva : ' + str(suma) )
-    # print('Kordinate duzi su: ' + str(xx) + ',' + str(yy+h) + '  A druge tacke: ' + str(xx+w) +',' + str(yy)+ '  //Sirina je: ' + str(w) + ' __VISINA JE:  ' + str(h) )
-img = beleKonture.copy()
-cv2.drawContours(img, contours_Brojeva, -1, (255, 0, 0), 2)
-plt.imshow(img)
-plt.show()
+while (file_count > i +1 ) :             #(files[i][:7].__contains__('0')):
+    print('Idemoo ' + files[i])
+    upper_red = np.array([255, 10, 10])
+    lower_red = np.array([90, 0, 0])
 
+    slika = cv2.imread('frames/' + files[i])
+    cv2.imshow('ucitana iz fajla', slika)
+
+    mask = cv2.inRange(slika.copy(), lower_red, upper_red)
+    output = cv2.bitwise_and(slika.copy(), slika.copy(), mask=mask)
+    plt.imshow(output)
+    plt.show()
+
+    x1, y1, x2, y2,angle = ZaDetekciju(output)
+    print(str(x1) + ' , ' + str(y1) + '  i  ' + str(x2) + ' , ' + str(y2))
+
+    #cv2.imshow('Prvobitna slika: '+ str(slika)  ,slika)
+
+    beleKonture = kontureBrojeva(slika)
+
+    img_GRAY = cv2.cvtColor(beleKonture, cv2.COLOR_RGB2GRAY)  # konvert u grayscale
+    retSlike, image_bin = cv2.threshold(img_GRAY, 100, 255, cv2.THRESH_OTSU)
+    #blurovana = cv2.GaussianBlur(image_bin, (3, 3), 0)  # ili Gray ovde
+
+    #RotiranaBezBoja = ndimage.rotate(frame, angle, reshape=False)
+
+    img, contours, hierarchy = cv2.findContours(image_bin.copy(), cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
+    imgRotiranje, contoursRotirana, hierarchy2= cv2.findContours(ndimage.rotate(image_bin, angle, reshape=False), cv2.RETR_LIST, cv2.CHAIN_APPROX_SIMPLE)
+
+    contours_Brojeva = []  # ovde ce biti samo konture koje pripadaju bar-kodu
+    index = 0
+    sumiranje = False
+
+    for contour in contours:  # za svaku konturu
+        center, size, angle = cv2.minAreaRect(contour)  # pronadji pravougaonik minimalne povrsine koji ce obuhvatiti celu konturu
+        width, height = size
+        xx, yy, w, h = cv2.boundingRect(contour)
+        povrsina = cv2.contourArea(contour)
+        #print('xx='+ str(xx) + '  yy=0' + str(yy))
+        #if xx >= x1 and xx <= x2 and yy <= y1 and yy >= y2:  # uslov da kontura pripada (trebalo bi preko Krugova)                                yyy:yyy + hhh, xxx:xxx + www
+        #if (x1+100 >= xx >= x1 or x2+100 >= xx >= x2) and (y1+100 >= yy >= y1 or y2+100 >= yy >= y2) :  # uslov da kontura pripada (trebalo bi preko Krugova)                                yyy:yyy + hhh, xxx:xxx + www
+        if povrsina > 12 and xx < x2 and x1 < xx   and width > 2 and height > 2:  #and width >= 7 and height > 8:  # uslov da kontura pripada (trebalo bi preko Krugova)                                yyy:yyy + hhh, xxx:xxx + www
+        #if povrsina > 12 and xx > x1 and xx < x2  and width >= 7 and height > 8:  # uslov da kontura pripada (trebalo bi preko Krugova)                                yyy:yyy + hhh, xxx:xxx + www
+            cv2.imwrite('slikeBrojeva/brojevi%d.png' % index, img_GRAY[yy:yy + h, xx:xx + w]) # and yy < y1 +60 and yy > y1 -30
+            print('Visina =' + str(height) + ' Sirina je: ' + str(width) )
+            index = index + 1
+            element = prepoznajBroj(beleKonture, contour, klasifikator)
+            print( str(element) + "  !!!!!!!!!")
+            sumiranje = True
+            contours_Brojeva.append(contour)  # ova kontura pripada bar-kodu
+            print('Detektovano kontura(linija):  ' + str(len(contours_Brojeva)))
+            if sumiranje:
+                suma = suma +  element
+                sumiranje = False
+    i += 1
+        # cv2.minAreaRect(contour)
+    print('Suma identifikovanih brojeva : ' + str(suma) )
+        # print('Kordinate duzi su: ' + str(xx) + ',' + str(yy+h) + '  A druge tacke: ' + str(xx+w) +',' + str(yy)+ '  //Sirina je: ' + str(w) + ' __VISINA JE:  ' + str(h) )
+    img = beleKonture.copy()
+    cv2.drawContours(img, contours_Brojeva, -1, (255, 0, 0), 2)
+    plt.imshow(img)
+    plt.show()
 
