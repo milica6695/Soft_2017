@@ -117,7 +117,7 @@ plate_color = cv2.imread("slikeBrojeva/brjevi1.png")
 
 #plate_color = cv2.resize(plate_color, (450, 105), interpolation=cv2.INTER_NEAREST)
 # cv2.imshow('color',plate_color)
-plate_color = cv2.GaussianBlur(plate_color, (3, 3), 0)
+plate_color = cv2.GaussianBlur(plate_color,- (3, 3), 0)
 plate_gray = cv2.cvtColor(plate_color, cv2.COLOR_RGB2GRAY)
 cv2.imshow('gray', plate_gray)
 plate_bin = cv2.adaptiveThreshold(plate_gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 61, 30)

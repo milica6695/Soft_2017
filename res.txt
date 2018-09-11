@@ -1,0 +1,4 @@
+frames/video-0.avi     Suma je:7
+frames/video-1.avi     Suma je:15
+frames/video-3.avi     Suma je:7
+

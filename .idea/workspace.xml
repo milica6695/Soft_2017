@@ -2,40 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b049ab65-f9d3-4c67-b67a-31b675031727" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rotiranFrame/slika0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rotiranFrame/slika1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rotiranFrame/slika2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rotiranFrame/slika3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rotiranFrame/slika4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rotiranFrame/slika5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rotiranFrame/slika6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rotiranFrame/slika7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rotiranFrame/slika8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rotiranFrame/slika9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rotiranFrame/video-0.avi0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rotiranFrame/video-0.avi1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rotiranFrame/video-0.avi2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rotiranFrame/video-0.avi3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rotiranFrame/video-0.avi4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rotiranFrame/video-0.avi5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rotiranFrame/video-9.avi0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StariSolution.py" beforeDir="false" afterPath="$PROJECT_DIR$/StariSolution.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/detekcijaVidea.py" beforeDir="false" afterPath="$PROJECT_DIR$/detekcijaVidea.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/slika0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/slika1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/slika2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/slika3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/slika4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/slika5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/slika6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/slika7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/slika8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/slika9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slikeBrojeva/brojevi0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slikeBrojeva/brojevi1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slikeBrojeva/brojevi2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/slikeBrojeva/brojevi3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/solution.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neuron.py" beforeDir="false" afterPath="$PROJECT_DIR$/neuron.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slikeBrojeva/brojevi1.png" beforeDir="false" afterPath="$PROJECT_DIR$/slikeBrojeva/brojevi1.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,41 +54,47 @@
     <session id="1418875348">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="jpg" value="158" />
-          <entry key="png" value="694" />
-          <entry key="py" value="56" />
+          <entry key="jpg" value="160" />
+          <entry key="png" value="730" />
+          <entry key="py" value="66" />
           <entry key="pyi" value="1" />
-          <entry key="txt" value="2" />
+          <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="852" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="56" />
+          <entry key="Image" value="890" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="66" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3335" />
-          <entry key="txt" value="136" />
+          <entry key="py" value="3865" />
+          <entry key="txt" value="184" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="136" />
-          <entry key="Python" value="3335" />
+          <entry key="PLAIN_TEXT" value="184" />
+          <entry key="Python" value="3865" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -127,20 +105,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/detekcijaVidea.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="119" column="12" selection-start-line="119" selection-start-column="12" selection-end-line="119" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -174,10 +139,10 @@
       <find>trenutniFrame</find>
       <find>prolazIzaPrave</find>
       <find>nasaoBroj</find>
-      <find>brojevi_list</find>
       <find>kreiranjeListeBr</find>
       <find>angle</find>
       <find>broj fin</find>
+      <find>brojevi_list</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -193,20 +158,21 @@
       <list>
         <option value="$PROJECT_DIR$/proba.py" />
         <option value="$PROJECT_DIR$/detektovatiLinijuSlika.py" />
-        <option value="$PROJECT_DIR$/neuron.py" />
         <option value="$PROJECT_DIR$/only.py" />
         <option value="$USER_HOME$/Downloads/Sara Krasic/Sara Krasic/softComp-master/softComp-master/sara_test/project.py" />
         <option value="$PROJECT_DIR$/solution.py" />
-        <option value="$PROJECT_DIR$/StariSolution.py" />
+        <option value="$PROJECT_DIR$/neuron.py" />
         <option value="$PROJECT_DIR$/detekcijaVidea.py" />
+        <option value="$PROJECT_DIR$/res.txt" />
+        <option value="$PROJECT_DIR$/StariSolution.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-25" />
-    <option name="y" value="9" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="x" value="-1704" />
+    <option name="y" value="-168" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -214,7 +180,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,33 +187,24 @@
               <item name="softMilica" type="b2602c69:ProjectViewProjectNode" />
               <item name="softMilica" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="softMilica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="softMilica" type="462c0819:PsiDirectoryNode" />
-              <item name="frames" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="softMilica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="softMilica" type="462c0819:PsiDirectoryNode" />
-              <item name="slikeBrojeva" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Smekac\Desktop\softMilica" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Smekac\Desktop\softMilica\rotiranFrame" />
       <recent name="C:\Users\Smekac\PycharmProjects\pr\Videos" />
       <recent name="C:\Users\Smekac\PycharmProjects\pr" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Smekac\Desktop\softMilica" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -263,7 +219,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.detekcijaVidea">
+  <component name="RunManager" selected="Python.StariSolution">
     <configuration name="StariSolution" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pr" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -400,8 +356,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.detekcijaVidea" />
         <item itemvalue="Python.StariSolution" />
+        <item itemvalue="Python.detekcijaVidea" />
         <item itemvalue="Python.solution" />
         <item itemvalue="Python.project" />
         <item itemvalue="Python.only" />
@@ -440,7 +396,21 @@
       <option name="project" value="LOCAL" />
       <updated>1534194369408</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Samo oni frejmovi koji su neophodni !!">
+      <created>1534250786846</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1534250786846</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Samo oni frejmovi koji su neophodni !!">
+      <created>1534250814764</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1534250814764</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -453,15 +423,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1928" y="-331" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23660715" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17860906" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3327869" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2852459" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -475,12 +444,12 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23660715" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25223213" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3327869" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2852459" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -501,11 +470,69 @@
     <MESSAGE value="prepoznavanje brojeva u odredjenim regionima .." />
     <MESSAGE value="MALE IZMENE" />
     <MESSAGE value="popravljeno identifikovanje brojeva ,uz malo blurovanje" />
-    <option name="LAST_COMMIT_MESSAGE" value="popravljeno identifikovanje brojeva ,uz malo blurovanje" />
+    <MESSAGE value="Samo oni frejmovi koji su neophodni !!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Samo oni frejmovi koji su neophodni !!" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frames/video-1.avi0.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi24.png" />
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi23.png" />
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi22.png" />
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi21.png" />
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi31.png" />
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi4.png" />
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi11.png" />
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi13.png" />
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi0.png" />
+    <entry file="file://$PROJECT_DIR$/frames/video-1.avi00.png" />
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi00.png" />
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-596167082/cv2/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="4710" column="4" selection-start-line="4710" selection-start-column="4" selection-end-line="4710" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proba.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/only.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neuron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="136" column="30" selection-start-line="136" selection-start-column="30" selection-end-line="136" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detekcijaVidea.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="114" column="87" selection-start-line="114" selection-start-column="87" selection-end-line="114" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="99" column="54" selection-start-line="99" selection-start-column="53" selection-end-line="99" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detektovatiLinijuSlika.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="68" column="47" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="47" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frames/video-1.avi1.png">
       <provider selected="true" editor-type-id="images" />
@@ -522,154 +549,101 @@
     <entry file="file://$PROJECT_DIR$/frames/video-1.avi5.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-1.avi6.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/frames/video-1.avi7.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-1.avi8.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/frames/video-1.avi9.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-1.avi10.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/frames/video-1.avi12.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-1.avi11.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-1.avi13.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-1.avi14.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-1.avi15.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-1.avi16.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-1.avi17.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-9.avi0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="181" selection-start-line="181" selection-end-line="181" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-3.avi0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-4.avi0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-5.avi0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-6.avi0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-0.avi5.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-0.avi1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-0.avi2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-0.avi3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-0.avi6.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-0.avi14.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/frames/video-2.avi0.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-0.avi32.png">
+    <entry file="file://$PROJECT_DIR$/frames/video-1.avi13.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-0.avi30.png">
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/typing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="2318" column="30" selection-start-line="2318" selection-start-column="25" selection-end-line="2318" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StariSolution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi188.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-0.avi29.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-0.avi28.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-0.avi27.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-0.avi25.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-0.avi24.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-0.avi23.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-0.avi22.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-0.avi21.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-0.avi31.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-0.avi4.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-0.avi11.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-0.avi13.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-0.avi0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-1.avi00.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-0.avi00.png">
+    <entry file="file://$PROJECT_DIR$/frames/video-3.avi0.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/frames/video-0.avi105.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-0.avi188.png">
+    <entry file="file://$PROJECT_DIR$/frames/video-1.avi0.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/detekcijaVidea.py">
+    <entry file="file://$PROJECT_DIR$/res.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="119" column="12" selection-start-line="119" selection-start-column="12" selection-end-line="119" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brojevi1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brojevi4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brojevi5.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brojevi6.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brojevi3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brojevi0.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotiranFrame/slika0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotiranFrame/slika8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotiranFrame/video-0.avi0.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotiranFrame/video-0.avi1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotiranFrame/video-0.avi2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotiranFrame/video-0.avi4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotiranFrame/video-0.avi5.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotiranFrame/video-9.avi0.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/slikeBrojeva/brojevi2.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>

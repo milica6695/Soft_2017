@@ -25,7 +25,7 @@ def pronalazenjeLinije(Okvir):
             #print('Kordinate duzi su: ' + str(xx) + ',' + str(yy+h) + '  A druge tacke: ' + str(xx+w) +',' + str(yy)+ '  //Sirina je: ' + str(w) + ' __VISINA JE:  ' + str(h) )
             center, size, angle = cv2.minAreaRect(
                 contour)
-            return xx, yy , xx + w, yy,angle;
+            return xx, yy , xx + w, yy, angle
 
 def ZaDetekciju(Okvir):
     img_GRAY_gs = cv2.cvtColor(Okvir, cv2.COLOR_RGB2GRAY)  # konvert u grayscale
@@ -62,7 +62,6 @@ filename = os.path.join(dir, 'Videos')
 
 path, dirs, files = os.walk(filename).__next__()
 file_count = len(files)
-
 
 index = 0
 threshold = 1
@@ -109,9 +108,9 @@ while index < len(files):       #Prolazak kroz sve videe iz foldera Videos
         t_minus = cv2.bitwise_and(rotativna1, rotativna1, mask=mask)
         t = cv2.bitwise_and(rotativna2, rotativna2, mask=mask)
         t_plus = cv2.bitwise_and(rotativna3, rotativna3, mask=mask)
-
         # x1-10:x1+100,y1:y2
-       # cv2.imwrite('frames/' + files[index] + '%d.png' % trenutniFrame, frame)
+        # cv2.imwrite('frames/' + files[index] + '%d.png' % trenutniFrame, frame)
+
         if cv2.countNonZero(diffImg(t_minus[x1:x2,y2-25:y1+50], t[x1:x2,y2-25:y1+50], t_plus[x1:x2,y2-25:y1+50])) >= threshold :
             # cv2.imwrite(datetime.now().strftime('%Y%m%d_%Hh%Mm%Ss%f') + '.jpg', dimg)
            #rotated = ndimage.rotate(output, angle, reshape=True)
@@ -136,17 +135,14 @@ while index < len(files):       #Prolazak kroz sve videe iz foldera Videos
 
         DataSlika, konturaLinije, slikaSaonturama = ZaDetekciju(output)
         xx, yy, w, h = cv2.boundingRect(konturaLinije[0])
-       # cv2.line(frame, (xx, yy+h ), (xx+w, yy), (255, 255, 0), 4)
-        #RotiranaBezBoja = ndimage.rotate(frame, angle, reshape=False)
-        #cv2.imwrite('images\slika%d.jpg' % index, frame)
 
-      #  ZaDetekciju(frame)qq
+      #  ZaDetekciju(-frame)qq
         pts = np.array([[x1, y1-5], [x2, y2-5], [x2, y2 + 50], [x1 , y1 + 50]], np.int32)
         pts = pts.reshape((-1, 1, 2))
         cv2.polylines(rotativna2, [pts], True, (255, 255, 0))
 
         cv2.imshow(winName, rotativna2)
-        # Display the resulting frame
+        # Display the -resulting frame
         if cv2.waitKey(90) & 0xFF == ord('q'):
             #captureVideo.release()
             break
