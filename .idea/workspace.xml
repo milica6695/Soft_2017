@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b049ab65-f9d3-4c67-b67a-31b675031727" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/res.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POSTER Milica ra2162014.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/video-1.avi14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/video-1.avi15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/video-1.avi16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/video-1.avi17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/video-1.avi18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/video-1.avi19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/video-1.avi20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/video-1.avi21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frames/video-1.avi22.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StariSolution.py" beforeDir="false" afterPath="$PROJECT_DIR$/StariSolution.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/detekcijaVidea.py" beforeDir="false" afterPath="$PROJECT_DIR$/detekcijaVidea.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neuron.py" beforeDir="false" afterPath="$PROJECT_DIR$/neuron.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slikeBrojeva/brojevi1.png" beforeDir="false" afterPath="$PROJECT_DIR$/slikeBrojeva/brojevi1.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,42 +76,121 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="jpg" value="160" />
-          <entry key="png" value="730" />
-          <entry key="py" value="66" />
+          <entry key="jpg" value="165" />
+          <entry key="png" value="734" />
+          <entry key="py" value="73" />
           <entry key="pyi" value="1" />
           <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="890" />
+          <entry key="Image" value="899" />
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="66" />
+          <entry key="Python" value="73" />
           <entry key="PythonStub" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3865" />
-          <entry key="txt" value="184" />
+          <entry key="py" value="3867" />
+          <entry key="txt" value="218" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="184" />
-          <entry key="Python" value="3865" />
+          <entry key="PLAIN_TEXT" value="218" />
+          <entry key="Python" value="3867" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.create.new" value="1" />
+          <entry key="git.branch.create.new" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StariSolution.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rotiranFrame/slika8.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rotiranFrame/slika9.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rotiranFrame/video-0.avi0.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/detekcijaVidea.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="118" column="29" lean-forward="true" selection-start-line="118" selection-start-column="29" selection-end-line="118" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/detektovatiLinijuSlika.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-544">
+              <caret line="68" column="47" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/only.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/neuron.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="635">
+              <caret line="136" column="30" selection-start-line="136" selection-start-column="30" selection-end-line="136" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/proba.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/solution.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="71" column="35" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -149,7 +234,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="samoPotrebniFrejmovi" />
       </map>
     </option>
   </component>
@@ -162,9 +247,9 @@
         <option value="$USER_HOME$/Downloads/Sara Krasic/Sara Krasic/softComp-master/softComp-master/sara_test/project.py" />
         <option value="$PROJECT_DIR$/solution.py" />
         <option value="$PROJECT_DIR$/neuron.py" />
-        <option value="$PROJECT_DIR$/detekcijaVidea.py" />
         <option value="$PROJECT_DIR$/res.txt" />
         <option value="$PROJECT_DIR$/StariSolution.py" />
+        <option value="$PROJECT_DIR$/detekcijaVidea.py" />
       </list>
     </option>
   </component>
@@ -219,7 +304,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.StariSolution">
+  <component name="RunManager" selected="Python.detekcijaVidea">
     <configuration name="StariSolution" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pr" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -356,8 +441,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.StariSolution" />
         <item itemvalue="Python.detekcijaVidea" />
+        <item itemvalue="Python.StariSolution" />
         <item itemvalue="Python.solution" />
         <item itemvalue="Python.project" />
         <item itemvalue="Python.only" />
@@ -410,7 +495,21 @@
       <option name="project" value="LOCAL" />
       <updated>1534250814764</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="some optimizatioon ...">
+      <created>1536682556922</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1536682556923</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add all data">
+      <created>1536682633922</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1536682633922</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -424,13 +523,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-331" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17860906" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2852459" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28416485" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -471,13 +571,11 @@
     <MESSAGE value="MALE IZMENE" />
     <MESSAGE value="popravljeno identifikovanje brojeva ,uz malo blurovanje" />
     <MESSAGE value="Samo oni frejmovi koji su neophodni !!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Samo oni frejmovi koji su neophodni !!" />
+    <MESSAGE value="some optimizatioon ..." />
+    <MESSAGE value="add all data" />
+    <option name="LAST_COMMIT_MESSAGE" value="add all data" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frames/video-0.avi24.png" />
-    <entry file="file://$PROJECT_DIR$/frames/video-0.avi23.png" />
-    <entry file="file://$PROJECT_DIR$/frames/video-0.avi22.png" />
-    <entry file="file://$PROJECT_DIR$/frames/video-0.avi21.png" />
     <entry file="file://$PROJECT_DIR$/frames/video-0.avi31.png" />
     <entry file="file://$PROJECT_DIR$/frames/video-0.avi4.png" />
     <entry file="file://$PROJECT_DIR$/frames/video-0.avi11.png" />
@@ -492,52 +590,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proba.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/only.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/neuron.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="136" column="30" selection-start-line="136" selection-start-column="30" selection-end-line="136" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/detekcijaVidea.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="114" column="87" selection-start-line="114" selection-start-column="87" selection-end-line="114" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1581">
-          <caret line="99" column="54" selection-start-line="99" selection-start-column="53" selection-end-line="99" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/detektovatiLinijuSlika.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="68" column="47" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frames/video-1.avi1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-1.avi2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/frames/video-1.avi3.png">
@@ -547,9 +600,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/frames/video-1.avi5.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-1.avi7.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/frames/video-1.avi9.png">
@@ -571,20 +621,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/StariSolution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frames/video-0.avi188.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/frames/video-3.avi0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frames/video-0.avi105.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/frames/video-1.avi0.png">
@@ -621,12 +661,6 @@
     <entry file="file://$PROJECT_DIR$/rotiranFrame/slika0.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/rotiranFrame/slika8.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rotiranFrame/video-0.avi0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/rotiranFrame/video-0.avi1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -644,6 +678,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/slikeBrojeva/brojevi2.png">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frames/video-0.avi105.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frames/video-1.avi2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frames/video-1.avi7.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotiranFrame/slika1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotiranFrame/slika3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotiranFrame/slika7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotiranFrame/slika8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotiranFrame/slika9.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rotiranFrame/video-0.avi0.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="71" column="35" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/only.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neuron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="136" column="30" selection-start-line="136" selection-start-column="30" selection-end-line="136" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proba.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StariSolution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detektovatiLinijuSlika.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-544">
+          <caret line="68" column="47" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detekcijaVidea.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="118" column="29" lean-forward="true" selection-start-line="118" selection-start-column="29" selection-end-line="118" selection-end-column="29" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

@@ -114,7 +114,7 @@ while index < len(files):       #Prolazak kroz sve videe iz foldera Videos
         if cv2.countNonZero(diffImg(t_minus[x1:x2,y2-25:y1+50], t[x1:x2,y2-25:y1+50], t_plus[x1:x2,y2-25:y1+50])) >= threshold :
             # cv2.imwrite(datetime.now().strftime('%Y%m%d_%Hh%Mm%Ss%f') + '.jpg', dimg)
            #rotated = ndimage.rotate(output, angle, reshape=True)
-            #RotiranaBezBoja = ndimage.rotate(frame, angle, reshape=False)
+            #RotiranaBezBoja = ndimage.rotate(frame, angle, reshape=False)qq
             cv2.imwrite('frames/' + files[index] +'%d.png' % trenutniFrame, frame)
             trenutniFrame+=1;
 
